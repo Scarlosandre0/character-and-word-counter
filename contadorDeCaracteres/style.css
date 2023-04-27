@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:ital,wght@0,400;1,300&family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --primary-color: rgb(88, 88, 165);
+  --primary-color-dark: rgb(223, 149, 149);
+}
+
+* {
+  
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem;
+  align-items: center;
+  gap: 1rem;  
+}
+
+.field {
+  width: 500px;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+textarea {
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #4c2ca3;
+}
+
+.counter {
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+#togglen {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
+#toggle {
+  background-color: rgb(224, 243, 50);
+  color: #0e0707;
+  font-size: 1.1rem;
+  padding: 0.4rem 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: .0.3s ease-in-out;
+}
+
+#toggle:hover{
+  background: var(--primary-color-dark);
+  
+}
+
